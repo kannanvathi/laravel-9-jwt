@@ -7,7 +7,7 @@ is the file you need to edit to change the look of the
 theme.
 ---------------------------------------------------- */
 /*=====================================================================
-@Template Name: HostHub Construction 
+@Template Name: HostHub Construction
 @Developed By: Naim Lasker
 Author E-mail: naimlasker@gmail.com
 
@@ -31,7 +31,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #777777;
-  background: url(../img/body-bg.png) no-repeat center; }
+  background: url(../images/img/body-bg.png) no-repeat center; }
 
 h1,
 h2,
@@ -344,7 +344,7 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  background: url(../img/banner/home-banner.png) no-repeat top center;
+  background: url(../images/img/banner/home-banner.png) no-repeat top center;
   background-position: center;
   background-size: cover; }
   .home_banner_area .banner_inner {
@@ -410,7 +410,7 @@ button:focus {
     overflow: hidden;
     width: 100%;
     min-height: 485px;
-    background: url(../img/banner/common-banner.png) no-repeat right bottom;
+    background: url(../images/img/banner/common-banner.png) no-repeat right bottom;
     background-size: 90% 85%;
     width: 98%;
     z-index: 1; }
@@ -2558,7 +2558,7 @@ h6 {
     position: absolute;
     top: -25px;
     left: -50px;
-    background: url(../img/client-info-bg.png) no-repeat;
+    background: url(../images/img/client-info-bg.png) no-repeat;
     height: 175px;
     width: 175px; }
     @media (max-width: 575px) {
@@ -2796,7 +2796,7 @@ h6 {
   color: #ffffff; }
 
 .subscription_box {
-  background: url(../img/subscribe-bg.png) no-repeat center;
+  background: url(../images/img/subscribe-bg.png) no-repeat center;
   padding: 150px 0px; }
   @media (max-width: 767px) {
     .subscription_box {
