@@ -4,6 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use \App\Http\Controllers\UserController;
+use \App\Http\Controllers\QuizController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -31,4 +32,6 @@ Route::controller(AuthController::class)->group(function () {
 });
 
 Route::get('users', [UserController::class, 'getUsers'])->middleware('auth:api');
+Route::resource('quiz', QuizController::class)->middleware('auth:api');
+Route::post('quiz-status', [QuizController::class, 'isCompleted'])->middleware('auth:api');
 
